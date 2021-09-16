@@ -13,11 +13,11 @@ const products = [
 //Функция для формирования верстки каждого товара
 //Добавить в выводе изображение
 const renderProduct = (item) => {
-    let image = item.img ? item.img : "inu.png"
+    let img = item.img ? item.img : "inu.png"
 
     return `<div class="col">
                 <div class="product-item">
-                    <img class="product-item_img" src=${image} alt="">
+                    <img class="product-item_img" src=${img} alt="">
                     <div class="product-item_list">
                         <h3>${item.title}</h3>
                         <span class="price">${item.price}</span>
@@ -27,12 +27,8 @@ const renderProduct = (item) => {
             </div>`
 };
 const renderPage = list => {
-    const productsList = list.map(item => renderProduct(item));
-    // console.log(productsList);
-    // document.querySelector('.products').innerHTML = productsList;
-    productsList.forEach(el => {
-        document.querySelector('.products').innerHTML += el
-    });
+    const productsList = list.map(item => renderProduct(item)).join('');
+    document.querySelector('.products').innerHTML = productsList
 };
 
 renderPage(products);

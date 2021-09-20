@@ -59,6 +59,7 @@ function getSelectedCheckboxValues(name) {
 
 const btn = document.querySelector('#btn')
 btn.addEventListener('click', (event) => {
+    event.preventDefault()
     hamburger = new Hamburger(getSelectedRadioValues('size'), getSelectedRadioValues('stuffing'), getSelectedCheckboxValues('topping'))
     console.log(hamburger)
     alert(`Итоговая цена: ${hamburger.calcPrice()}\nКалорийность: ${hamburger.calcCalories()}`)
@@ -66,7 +67,7 @@ btn.addEventListener('click', (event) => {
 
 
 let hamburger = new Hamburger(getSelectedRadioValues('size'), getSelectedRadioValues('stuffing'), getSelectedCheckboxValues('topping'))
-console.log(hamburger)
+// console.log(hamburger)
 
 
 

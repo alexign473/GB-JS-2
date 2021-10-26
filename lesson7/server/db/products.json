@@ -1,0 +1,42 @@
+[
+    {
+        "id_product": 1,
+        "product_name": "Red Printed T-shirt",
+        "price": 50
+    },
+    {
+        "id_product": 2,
+        "product_name": "HRX Crosses",
+        "price": 100
+    },
+    {
+        "id_product": 3,
+        "product_name": "Grey Pants",
+        "price": 50
+    },
+    {
+        "id_product": 4,
+        "product_name": "Blue T-shirt",
+        "price": 55
+    },
+    {
+        "id_product": 5,
+        "product_name": "Crosses",
+        "price": 110
+    },
+    {
+        "id_product": 6,
+        "product_name": "Black T-shirt",
+        "price": 55
+    },
+    {
+        "id_product": 7,
+        "product_name": "Socks",
+        "price": 15
+    },
+    {
+        "id_product": 8,
+        "product_name": "Clocks",
+        "price": 333
+    }
+]

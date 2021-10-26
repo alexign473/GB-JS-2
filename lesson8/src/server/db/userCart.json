@@ -1,0 +1,30 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 5,
+            "id_product": 1,
+            "product_name": "Red Printed T-shirt",
+            "price": 50
+        },
+        {
+            "quantity": 2,
+            "id_product": 3,
+            "product_name": "Grey Pants",
+            "price": 50
+        },
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "product_name": "Blue T-shirt",
+            "price": 55
+        },
+        {
+            "quantity": 2,
+            "id_product": 2,
+            "product_name": "HRX Crosses",
+            "price": 100
+        }
+    ]
+}
